@@ -18,6 +18,32 @@ Primeira versão jogável do projeto feito em Unity.
 ⚠️ Obs: Compatível apenas com **Windows 64 bits**.
 
 ---
+🕹️ Instruções de Jogo
+
+Bem-vindo(a) ao jogo! Prepare-se para desafiar seus reflexos e conquistar a maior pontuação possível.
+Domine os controles, destrua os obstáculos e colete o máximo de frutas e moedas que conseguir! 🍎🍊🍇💰
+
+🎮 Controles
+
+A → Move para esquerda ⬅️
+
+D → Move para direita ➡️
+
+S → Abaixa ⬇️
+
+O → Atira 🔫
+
+K → Destrói 💥
+
+🏆 Pontuação
+
+💰 Moeda: +10 pontos
+
+🍎 Maçã: +20 pontos
+
+🍊 Laranja: +30 pontos
+
+🍇 Uva: +40 pontos
 
 ## ℹ️ Informações
 - Desenvolvido em **Unity**  
