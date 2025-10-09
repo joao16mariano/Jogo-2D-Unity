@@ -1,6 +1,6 @@
 https://github.com/joao16mariano/Unity3/releases/tag/v1.0/Unity.rar
 
-# 🎮 Jogo Unity - João Mariano
+# 🎮 Jogo 2D - João Mariano
 
 Primeira versão jogável do projeto feito em Unity.
 
@@ -10,7 +10,7 @@ Primeira versão jogável do projeto feito em Unity.
 ## 🚀 Como jogar
 1. quando clicar no link acima baixe o arquivo Unity.exe.
 2. Extraia o `.rar` em uma pasta no seu computador.
-3. Clique em **Unity.exe** para iniciar o jogo.
+3. Clique em **2d Unity Mariano.exe** para iniciar o jogo.
 4. 
 ## 🚀 Caixa de Agua
 https://quarto-4328c.web.app/principal.html.
