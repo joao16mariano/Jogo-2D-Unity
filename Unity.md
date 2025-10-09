@@ -12,8 +12,8 @@ Primeira versão jogável do projeto feito em Unity.
 2. Extraia o `.rar` em uma pasta no seu computador.
 3. Clique em **2d Unity Mariano.exe** para iniciar o jogo.
 4. 
-## 🚀 Caixa de Agua
-https://quarto-4328c.web.app/principal.html.
+## 🚀 INSTRUÇÔES
+[https://quarto-4328c.web.app/principal.html.](https://tutorial-1ad5a.web.app).
 
 ⚠️ Obs: Compatível apenas com **Windows 64 bits**.
 
