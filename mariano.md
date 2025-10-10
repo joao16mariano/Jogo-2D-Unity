@@ -5,7 +5,7 @@
 Primeira versão jogável do projeto feito em Unity.
 
 ## 📥 Download
-➡️ [Clique aqui para baixar a versão para Windows](https://github.com/joao16mariano/Jogo-2D-Unity/releases/download/v1.2/Jogo2DMariano.rar)
+➡️ [Clique aqui para baixar a versão para Windows](https://github.com/joao16mariano/Jogo-2D-Unity/releases/download/v1.0.2/Unity.rar)
 
 ## 🚀 Como jogar
 1. quando clicar no link acima baixe o arquivo Unity.exe.
@@ -13,7 +13,7 @@ Primeira versão jogável do projeto feito em Unity.
 3. Clique em **2d Unity Mariano.exe** para iniciar o jogo.
 4. 
 ## 🚀 INSTRUÇÔES
-[https://quarto-4328c.web.app/principal.html.](https://tutorial-1ad5a.web.app).
+[(https://tutorial-1ad5a.web.app).](https://tutorial2-9ca11.web.app/)
 
 ⚠️ Obs: Compatível apenas com **Windows 64 bits**.
 
