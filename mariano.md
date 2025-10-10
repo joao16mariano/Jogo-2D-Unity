@@ -13,7 +13,8 @@ Primeira versão jogável do projeto feito em Unity.
 3. Clique em **2d Unity Mariano.exe** para iniciar o jogo.
 4. 
 ## 🚀 INSTRUÇÔES
-[(https://tutorial-1ad5a.web.app).](https://tutorial2-9ca11.web.app/)
+[https://tutorial-1ad5a.web.app/
+
 
 ⚠️ Obs: Compatível apenas com **Windows 64 bits**.
 
