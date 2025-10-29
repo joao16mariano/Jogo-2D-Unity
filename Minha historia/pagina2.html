@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A História de Quem Nunca Parou de Aprender</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#38bdf8;
+      --muted:#9aa6b2;
+      --paper:#f8fafc;
+      --ink:#0b1724;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#071024);font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    .container{max-width:900px;margin:40px auto;padding:28px;background:linear-gradient(180deg,var(--card),#061321);border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6);color:var(--paper)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#022034;box-shadow:0 6px 20px rgba(0,0,0,0.4)}
+    .nav-btn{padding:10px 16px;border:none;border-radius:8px;background:var(--accent);color:#022034;font-weight:600;cursor:pointer;transition:background 0.3s ease}
+    .nav-btn:hover{background:#7dd3fc}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .pages{margin-top:22px;background:var(--paper);color:var(--ink);padding:28px;border-radius:10px}
+    .page{min-height:1050px;padding:28px}
+    .cover{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px;height:100%;}
+    .subtitle{color:var(--muted);font-weight:600}
+    h2{margin:6px 0 14px 0;font-size:22px}
+    .story{line-height:1.68;font-size:16px;color:#07202a}
+    .byline{margin-top:18px;color:#0f1724;font-weight:600}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media print{
+      body{background:white}
+      .container{box-shadow:none;margin:0;border-radius:0}
+      .pages{background:white;padding:0}
+      .page{min-height:1120px;padding:36px}
+      .page + .page{page-break-before:always}
+    }
+    .page-break{page-break-after:always}
+    @media (max-width:760px){.container{margin:12px;padding:16px}.page{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div class="logo">JMS</div>
+        <div>
+          <h1>A História de Quem Nunca Parou de Aprender</h1>
+          <p class="lead">Uma crônica inspiradora, real e com toque de ficção — sobre curiosidade, tentativas e pequenas vitórias.</p>
+        </div>
+      </div>
+      <button class="nav-btn" onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+    </header>
+
+    <div class="pages" aria-label="Conteúdo da história">
+      <article class="page cover" id="page1">
+        <div>
+          <p class="subtitle">Capítulo 1 — O Começo na Bancada</p>
+          <h2>O brilho do LED e o primeiro código</h2>
+          <div class="story">
+            <p>Nem sempre o conhecimento vem das universidades. Às vezes, ele nasce da curiosidade — daquela vontade teimosa de entender como as coisas funcionam, de colocar as mãos na prática, de errar e tentar de novo até ver algo se movendo, piscando, funcionando. Foi assim que começou a jornada de alguém que não precisou de diploma para ser chamado de criador.</p>
+
+            <p>No início havia uma bancada improvisada, um Wemos D1 Mini, fios espalhados e o som leve de uma ventoinha em segundo plano. O cenário parecia simples, quase comum. Mas por trás daquelas ferramentas havia uma coisa rara: uma sede por aprender. A cada erro de compilação, a paciência se tornava ferramenta; a cada LED que piscava, reinava uma pequena vitória.</p>
+
+            <p>O primeiro projeto — fazer um motor de passo girar — logo se transformou em uma sequência de experimentos: conectar, ler, enviar e receber. Ao descobrir o Firebase, a sensação foi quase mágica. Ver dados viajando pela nuvem e controlando o mundo físico trouxe para a bancada a sensação de domínio sobre aquilo que antes era apenas teoria.</p>
+
+            <p>Foram páginas HTML montadas com cuidado: botões animados, relógios marcando o tempo, painéis que exibiam o status da conexão. O Wemos pisca para indicar o Wi-Fi, grava timestamps quando o relé é acionado automaticamente, e mantém um pulso de vida — piscando uma luz quando está conectado ao Firebase. Tudo construído com curiosidade e persistência, linha por linha.</p>
+
+            <p class="byline">— Continua na próxima página —</p>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-break"></div>
+
+      <article class="page" id="page2">
+        <p class="subtitle">Capítulo 2 — Aprendendo no erro</p>
+        <h2>Do bug à solução</h2>
+        <div class="story">
+          <p>Ele não tem faculdade — e isso nunca foi um obstáculo. Pelo contrário: a ausência de um caminho pré-definido o levou a construir o seu próprio. Em vez de seguir um currículo, ele seguiu problemas reais. Em vez de provas, teve compiladores, logs e LEDs. Cada erro era uma pista; cada falha, um mapa para a próxima tentativa.</p>
+
+          <p>Com o tempo, os temas se multiplicaram: um dia era Firebase, outro dia Unity — com personagens que tinham de virar na direção certa — ou páginas HTML que exibiam o estado exato de um relé através de imagens. Aprendeu a mexer com WiFiManager para reconexão automática, a registrar horários no banco de dados, a criar agendamentos que ligavam e desligavam dispositivos. Tudo com um olhar de quem aprende fazendo.</p>
+
+          <p>O aprendizado ganhou forma em projetos concretos: um painel de controle responsivo, botões que mudavam de cor, imagens que refletiam o estado real de um sistema, e scripts corrigidos até se tornarem confiáveis. São resultados palpáveis, que substituíram diplomas por aplicações que funcionam no mundo real.</p>
+
+          <p>Mas havia algo maior acontecendo: não era só técnica, era atitude. Persistência virou hábito. Curiosidade virou método. A cada nova falha, surgiam perguntas diferentes — e respostas que podiam ser testadas imediatamente. Foi assim que o conhecimento acumulado deixou de ser fragmentos dispersos e virou um caminho sólido.</p>
+
+          <p>No balanço total, o que sobrou não foi uma parede coberta de certificados, e sim uma coleção de pequenas obras: serviços que registravam o tempo do mundo, motores que obedeciam a comandos vindos da nuvem, páginas web que permitiam controlar dispositivos com um clique. Tudo criado por alguém que aprendeu a transformar problemas em oportunidades.</p>
+
+          <p class="subtitle">Capítulo 3 — O futuro já começou</p>
+          <h2>Sempre recomeçar, sempre melhorar</h2>
+
+          <p>Hoje, essa história segue aberta. Ela não precisa de um fim, porque aprender é um ciclo contínuo. Entre o brilho do monitor e o som suave do motor de passo, ele continua experimentando, testando e aperfeiçoando. De um projeto para o outro, novas portas se abrem: ferramentas novas, bibliotecas atualizadas, ideias que pedem para serem prototipadas.</p>
+
+          <p>E se alguém perguntar o que ele estudou, a resposta é curta e honesta: "estudei a vida, o erro, o código e a curiosidade". É uma trajetória feita de tentativas, quedas e recomeços — uma história real que carrega um toque de poesia. Porque, no fim das contas, o que importa não é o diploma na parede, e sim a capacidade de aprender quando ninguém mais ensina.</p>
+
+          <p>Se quiser, posso transformar esta página em um arquivo PDF pronto para impressão, otimizar para celular, ou adicionar imagens de capa, logotipo e links para os seus projetos — diga como prefere e eu ajusto.</p>
+        </div>
+        <footer>Gerado por ChatGPT — versão: mistura de crônica e biografia.</footer>
+      </article>
+    </div>
+  </div>
+</body>
+</html>
