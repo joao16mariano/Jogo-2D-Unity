@@ -5,7 +5,22 @@
 Primeira versão jogável do projeto feito em Unity.
 
 ## 📥 Download
+## 🚀 JOGO JOÃOZINHO
 ➡️ [Clique aqui para baixar a versão para Windows](https://github.com/joao16mariano/Jogo-2D-Unity/releases/download/v1.2/Jogo2DMariano.rar)
+
+
+## 📥 Download
+## 🚀 JOGO à FAZENDA
+➡️ [Clique aqui para baixar a versão para Windows](https://github.com/joao16mariano/Unity-a-Fazenda/blob/main/Colheita.md)
+A → Move para esquerda ⬅️
+
+D → Move para direita ➡️
+
+S → Move para trás ⬇️
+
+w → Move para frente 🔫
+
+
 
 ## 🚀 Como jogar
 1. quando clicar no link acima baixe o arquivo Unity.exe.
@@ -24,7 +39,7 @@ Bem-vindo(a) ao jogo! Prepare-se para desafiar seus reflexos e conquistar a maio
 Domine os controles, destrua os obstáculos e colete o máximo de frutas e moedas que conseguir! 🍎🍊🍇💰
 
 🎮 Controles
-
+Para o jogo Joãozinho
 A → Move para esquerda ⬅️
 
 D → Move para direita ➡️
